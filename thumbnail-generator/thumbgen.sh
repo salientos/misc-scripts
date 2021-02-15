@@ -11,8 +11,8 @@
 #------------------------------------------------------------------------------
 
 #------------------------------------------------------------------------------
-# Modified			- Sun 14 Feb 07:20:05 GMT 2021
-# Author			- Silent Robot
+# Modified	    - Sun 14 Feb 07:20:05 GMT 2021
+# Author	    - Silent Robot
 #
 # Added the ability to draw a box around the text output to contrast against
 # the background image with opacity settings in short form as Convert accepts.
@@ -23,8 +23,8 @@ prognme=${0##*/}
 # Output Styles ---------------------------------------------------------------
 
 bol="$(tput bold)"		#bold
-red="$(tput setaf 1)"	#red
-blu="$(tput setaf 4)"	#blue
+red="$(tput setaf 1)"		#red
+blu="$(tput setaf 4)"		#blue
 nor="$(tput sgr0)"		#normal
 nl="\n"
 
